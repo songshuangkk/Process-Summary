@@ -19,7 +19,6 @@ This file stores per-module change history, keeping CLAUDE.md lean.
 
 ## Rules
 
-- Append new change entries under the corresponding module section
+- Append new change entries **newest first** (at the top of the module section)
 - Create a new `## ${module_name}` section when a module appears for the first time
-- Changes are listed newest-first within each module section
 - When this file exceeds 200 lines, run `scripts/maintain.sh .claude/process-summary/index.md` to compress
